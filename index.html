@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css">
    
 </head>
-<body class="poppins-regulars min-h-screen globalColor" >
+<body class="poppins-regulars min-h-screen globalColor " id="random">
     <section class="py-5">
         <nav class="bg-white w-11/12 mx-auto rounded-2xl">
             <div class="flex items-center justify-between px-5">
@@ -27,10 +27,10 @@
                 <div class="flex items-center" >
                     <div class="flex py-2 px-3 rounded-full globalColor" >
                         <img src="./pik/checkbox.png" alt="">
-                        <h1 class="font-bold text-3xl pl-2">23</h1>
+                        <h1 class="font-bold text-3xl pl-2" id="twentythree">23</h1>
                     </div>
                     <div class="ml-9 p-2 rounded-full  globalColor" >
-                        <img src="./pik/theme-btn.png" alt="">
+                        <img id="colorpad" src="./pik/theme-btn.png" alt="">
                     </div>
                 </div>
             </div>
@@ -39,9 +39,9 @@
 
 
     <section class="main">
-        <div class=" w-11/12 h-dvh mx-auto rounded-2xl flex justify-between gap-4">
+        <div class=" w-11/12  mx-auto rounded-2xl flex justify-between gap-4">
             <div class="w-9/12 bg-white rounded-2xl ">
-                <div class="border-b border-dotted">
+                <div class="border-b border-dashed">
                     <div class="m-6 flex gap-5 ">
                         <div class="flex items-center rounded-xl pr-6 globalColor">
                             <div class="bg-white rounded-full p-3 my-8 ml-8 mr-4">
@@ -49,11 +49,11 @@
                             </div>
                             <div>
                                 <div><p class="text-base font-medium">Task Assigned </p></div>
-                                <div><h2 class="text-3xl font-bold">05</h2></div>
+                                <div><h2 class="text-3xl font-bold">0<span id="six">6</span></h2></div>
                             </div>
                         </div>
     
-                        <div class="flex flex-auto items-center rounded-xl pl-8 py-5 custom-color">
+                        <div class="flex flex-auto items-center rounded-xl pl-8 py-5 custom-color" id="custom">
                             <img src="./pik/board.png" alt="">
                             <h2 class="ml-3 text-2xl text-white">Discover Something<br> New Today!</h2>
                         </div>
@@ -61,8 +61,8 @@
                         <div class="flex items-center gap-5 rounded-xl py-7 pl-8 pr-6 globalColor">
                             <div><img src="./pik/calender.png" alt=""></div>
                             <div>
-                                <p>Wed ,<br>
-                                    <span class="font-bold text-xl color">Jul 28 2025</span> </p>
+                                <p id="dateId">
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -74,17 +74,92 @@
                         <div><button class="btn bg-white color font-normal">Shop Ease</button></div>
                         <div><h1 class="text-2xl font-medium color my-4">Fix Mobile Button Issue</h1></div>
                         <div class="mb-3">
-                            <div class="mr-6 overflow-hidden bg-white rounded-lg h-24  pl-4 pt-3 pb-7"><div class="overflow-hidden h-12"><p>Debug using Chrome<br> DevTools , check for over... lapping elements, and ensure onClick works properly
+                            <div class="mr-6 overflow-hidden bg-white rounded-lg h-24  pl-4 pt-3 pb-7"><div class="overflow-hidden h-12"><p style="color: #737373;">Debug using Chrome<br> DevTools , check for over... lapping elements, and ensure onClick works properly
                                 and ensure onClick works properly</p></div></div>
                         </div>
-                        <div class="  mr-6 border-t border-dotted">
+                        <div class="  mr-6 border-t border-dashed">
                             <div class="mt-3 flex justify-between">
-                                <p>Deadline<br><span>21 March 2025</span></p>
-                                <div><button class="btn btn-primary">Completed</button></div>
+                                <p class="color text-sm font-light">Deadline<br><span  class="text-base font-medium">21 March 2025</span></p>
+                                <div><button class="btn btn-primary comonBtn">Completed</button></div>
                             </div>
                         </div>
                     </div>
 
+                    <div class="globalColor py-6 pl-6 rounded-2xl" id="2nd">
+                        <div><button class="btn bg-white color font-normal">CloudSync</button></div>
+                        <div><h1 class="text-2xl font-medium color my-4">Add Dark Mode</h1></div>
+                        <div class="mb-3">
+                            <div class="mr-6 overflow-hidden bg-white rounded-lg h-24  pl-4 pt-3 pb-7"><div class="overflow-hidden h-12"><p style="color: #737373;">Store the user's preference in localStorage, update CSS... variables dynamically, and apply a smooth transition effect.</p></div></div>
+                        </div>
+                        <div class="  mr-6 border-t border-dashed">
+                            <div class="mt-3 flex justify-between">
+                                <p class="color text-sm font-light">Deadline<br><span  class="text-base font-medium">21 March 2025</span></p>
+                                <div><button class="btn btn-primary comonBtn">Completed</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="globalColor py-6 pl-6 rounded-2xl">
+                        <div><button class="btn bg-white color font-normal">SwiftPay</button></div>
+                        <div><h1 class="text-2xl font-medium color my-4">Optimize  Home page </h1></div>
+                        <div class="mb-3">
+                            <div class="mr-6 overflow-hidden bg-white rounded-lg h-24  pl-4 pt-3 pb-7"><div class="overflow-hidden h-12"><p style="color: #737373;">Debug using Chrome<br> DevTools , check for over... lapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p></div></div>
+                        </div>
+                        <div class="  mr-6 border-t border-dashed">
+                            <div class="mt-3 flex justify-between">
+                                <p class="color text-sm font-light">Deadline<br><span  class="text-base font-medium">21 March 2025</span></p>
+                                <div><button class="btn btn-primary comonBtn">Completed</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="globalColor py-6 pl-6 rounded-2xl">
+                        <div><button class="btn bg-white color font-normal">Meta</button></div>
+                        <div><h1 class="text-2xl font-medium color my-4">Add new emoji 🤲</h1></div>
+                        <div class="mb-3">
+                            <div class="mr-6 overflow-hidden bg-white rounded-lg h-24  pl-4 pt-3 pb-7"><div class="overflow-hidden h-12"><p style="color: #737373;">Debug using Chrome<br> DevTools , check for over... lapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p></div></div>
+                        </div>
+                        <div class="  mr-6 border-t border-dashed">
+                            <div class="mt-3 flex justify-between">
+                                <p class="color text-sm font-light">Deadline<br><span  class="text-base font-medium">21 March 2025</span></p>
+                                <div><button class="btn btn-primary comonBtn">Completed</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="globalColor py-6 pl-6 rounded-2xl">
+                        <div><button class="btn bg-white color font-normal">Google LLC</button></div>
+                        <div><h1 class="text-2xl font-medium color my-4">Integrate OpenAI API</h1></div>
+                        <div class="mb-3">
+                            <div class="mr-6 overflow-hidden bg-white rounded-lg h-24  pl-4 pt-3 pb-7"><div class="overflow-hidden h-12"><p style="color: #737373;">Debug using Chrome<br> DevTools , check for over... lapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p></div></div>
+                        </div>
+                        <div class="  mr-6 border-t border-dashed">
+                            <div class="mt-3 flex justify-between">
+                                <p class="color text-sm font-light">Deadline<br><span  class="text-base font-medium">21 March 2025</span></p>
+                                <div><button class="btn btn-primary comonBtn">Completed</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="globalColor py-6 pl-6 rounded-2xl">
+                        <div><button class="btn bg-white color font-normal">Glassdoar</button></div>
+                        <div><h1 class="text-2xl font-medium color my-4">Improve Job searching </h1></div>
+                        <div class="mb-3">
+                            <div class="mr-6 overflow-hidden bg-white rounded-lg h-24  pl-4 pt-3 pb-7"><div class="overflow-hidden h-12"><p style="color: #737373;">Debug using Chrome<br> DevTools , check for over... lapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p></div></div>
+                        </div>
+                        <div class="  mr-6 border-t border-dashed">
+                            <div class="mt-3 flex justify-between">
+                                <p class="color text-sm font-light">Deadline<br><span  class="text-base font-medium">21 March 2025</span></p>
+                                <div><button class="btn btn-primary comonBtn">Completed</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
                 </div>
             </div>
 
@@ -96,18 +171,23 @@
                     <img src="./pik/activity.png" alt="">
                     <h2 class="pl-3 text-xl font-medium">Activity Log</h2>
                 </div>
-                <div class="text-center border-b border-dotted mb-6 pb-3"><button class="btn btn-primary text-base">Clear History</button></div>
+                <div class="text-center border-b border-dashed mb-6 pb-3"><button class="btn btn-primary text-base">Clear History</button></div>
 
 
-                <div class="history px-8">
-                    <div class="rounded-lg p-3 globalColor">
+                <div id="prantNotification" class="history px-8">
+
+                    <!-- <div class="rounded-lg p-3 globalColor mb-7" >
                         <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
-                    </div>
+                    </div> -->
+
                 </div>
             </div>
         </div>
     </section>
 
+
+
+    <section><h1 class="text-5xl">fkjvkfbfvb</h1></section>
 
     <script src="./test.js"></script>
 </body>
