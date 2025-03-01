@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+   
 </head>
-<body>
-    
+<body class="poppins-regulars min-h-screen" style="background-color: #f4f7ff;">
+    <section class="py-5">
+        <nav class="bg-white w-10/12 mx-auto rounded-2xl">
+            <div class="flex items-center justify-between px-5">
+                <div class="flex items-center">
+                    <div class="py-4  pr-4"><img src="./pik/logo.png" alt=""></div>
+                    <div class="text-4xl font-light">Dev<span class="font-bold">Board</span></div>
+                </div>
+            
+                <div class="flex items-center" >
+                    <div class="flex py-2 px-3 rounded-full" style="background-color: #f4f7ff;">
+                        <img src="./pik/checkbox.png" alt="">
+                        <h1 class="font-bold text-3xl pl-2">23</h1>
+                    </div>
+                    <div class="ml-9 p-2 rounded-full color" style="background-color: #f4f7ff;">
+                        <img src="./pik/theme-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <section class="main">
+        <div class=" w-10/12 h-dvh mx-auto rounded-2xl flex justify-between gap-4">
+            <div class="w-8/12 bg-white"></div>
+
+            <div class="w-4/12 bg-white">
+                <div class="flex justify-center py-6">
+                    <img src="./pik/activity.png" alt="">
+                    <h2 class="pl-3 text-xl font-medium">Activity Log</h2>
+                </div>
+                <div class="text-center border-b border-dotted mb-6 pb-3"><button class="btn btn-primary text-base">Clear History</button></div>
+
+
+                <div class="history px-8">
+                    <div class="rounded-lg" style="background-color: #f4f7ff;">
+                        <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./test.js"></script>
 </body>
 </html>
