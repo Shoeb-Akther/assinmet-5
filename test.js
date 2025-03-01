@@ -45,7 +45,7 @@ for (let i = 0; i < buttonS.length; i++) {
             let secondChild = button4p.querySelector(':nth-child(2)'); 
             let secondChild2 = secondChild.querySelector(':nth-child(1)').innerHTML; 
 
-            if (Count === buttonS.length) { alert("All buttons are now disabled!");}
+            if (Count === buttonS.length) { alert("Congrates!!! You have Complited All Current Tusk");}
             let strtext = convarterstring(number)
             let strtext1 = convarterstring(number1)
             document.getElementById("six").innerText = strtext;
