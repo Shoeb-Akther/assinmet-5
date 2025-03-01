@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+    <link rel="stylesheet" href="style.css">
+   
 </head>
-<body>
-    <h1>hdjsddhfs</h1>
+<body class="poppins-regulars min-h-screen globalColor ">
+    <section class="py-5">
+        <nav class="bg-white w-11/12 mx-auto rounded-2xl">
+            <div class="flex items-center justify-between px-5">
+                <div class="flex items-center">
+                    <div class="py-4  pr-4"><img src="./pik/logo.png" alt=""></div>
+                    <div class="text-4xl font-light">Dev<span class="font-bold">Board</span></div>
+                </div>
+            
+                <div class="flex items-center" >
+                    <button class="btn btn-primary font-semibold text-lg" id="back">Back to Desk</button>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div ><h1 class="text-center font-bold text-4xl">Blogs</h1></div>
+    <section class="py-5">
+        <nav class="bg-white w-11/12 mx-auto rounded-2xl p-5">
+            <div class="border-b border-separate mb-4 pb-4">
+                <h2 class="text-xl font-semibold">What are the different ways to select an element in the DOM?</h2>
+            </div>
+            <div>
+                <p class="font-medium text-gray-500">Document.getElimentByid(),Document.getElimentByclassname(),Document.getElimentBytagname()
+                    ,quaryselacktor(),quaryselacktorall()
+                </p>
+            </div>
+        </nav>
+
+        <nav class="bg-white w-11/12 mx-auto rounded-2xl p-5 mt-7">
+            <div class="border-b border-separate mb-4 pb-4">
+                <h2 class="text-xl font-semibold">What is the difference between innerHTML, innerText, and textContent ?</h2>
+            </div>
+            <div>
+                <p class="font-medium text-gray-500">inntext return tha text only, inner html tag ang text return to and Returns or sets all the text content of the element (excluding HTML tags).
+            </div>
+        </nav>
+
+        <nav class="bg-white w-11/12 mx-auto rounded-2xl p-5 mt-7">
+            <div class="border-b border-separate mb-4 pb-4">
+                <h2 class="text-xl font-semibold">What is event delegation in the DOM?</h2>
+            </div>
+            <div>
+                <p class="font-medium text-gray-500">You can handle events on all of its child elements by adding event listeners to a parent element for dom event</p>
+            </div>
+        </nav>
+        <nav class="bg-white w-11/12 mx-auto rounded-2xl p-5 mt-7">
+            <div class="border-b border-separate mb-4 pb-4">
+                <h2 class="text-xl font-semibold"> What is event bubbling in the DOM?</h2>
+            </div>
+            <div>
+                <p class="font-medium text-gray-500">it is Event handelar .event working prscss </p>
+            </div>
+        </nav>
+        <nav class="bg-white w-11/12 mx-auto rounded-2xl p-5 mt-7">
+            <div class="border-b border-separate mb-4 pb-4">
+                <h2 class="text-xl font-semibold">How do you create, add, and remove elements using JavaScript?</h2>
+            </div>
+            <div>
+                <p class="font-medium text-gray-500">i can use create elemet for create alimet </p>
+            </div>
+        </nav>
+
+
+    </section>
+
+    <script >
+        document.getElementById("back").addEventListener("click",function () {
+    window.location.href ="index.html"
+    })
+    </script>
 </body>
 </html>
