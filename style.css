@@ -3,3 +3,12 @@
     font-weight: 400;
     font-style: normal;
   }
+  .globalColor{
+    background-color: #f4f7ff;
+  }
+  .custom-color {
+    background: linear-gradient(to right, #3752FD 0%, #6C7FFA 53%, #9BA8F8 100%);
+}
+.color{
+  color: #00303C;
+}
